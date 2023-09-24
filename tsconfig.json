@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es2015",//ES6
+        "rootDir": "./src",
+        "outDir": "./dist",//куда компилировать
+        "allowJs": true,//Позволяет компилировать JS-файлы
+        "checkJs": true,//Проверяет типы в JavaScript-файлах и сообщает об ошибках
+        "sourceMap": true,//Создать source map файлы для готовых файлов JavaScript (хорошо подходит для дебаггинга)
+        "removeComments": true,//Игонорировать комментарии
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "strict": true
+    },
+    "include": ["src"]//компилировать только файлы из папки src
+}
